@@ -1,0 +1,11 @@
+
+一、libmad-0.15.1b配置命令行
+	./configure --enable-fpm=arm --host=arm-linux --disable-shared --disable-debugging --enable-static --prefix=/opt/FriendlyARM/toolschain/4.5.1/arm-none-linux-gnueabi/sys-root/usr/lib
+	
+二、MPlayer-1.0rc2配置命令行
+	./configure --cc=arm-linux-gcc --ar=arm-linux-ar --ranlib=arm-linux-ranlib --disable-gui --target=arm-armv6-linux --host-cc=gcc --disable-freetype --enable-fbdev --disable-mencoder --disable-sdl --disable-live --disable-dvdread --disable-libdvdcss-internal --disable-x11 --enable-cross-compile --disable-mp3lib --enable-mad --disable-dvdnav --disable-dvdread-internal --disable-jpeg --disable-tga --disable-pnm --disable-tv --disable-ivtv --disable-fontconfig --disable-xanim --disable-win32dll --disable-armv5te
+	
+	
+	
+	
+	
